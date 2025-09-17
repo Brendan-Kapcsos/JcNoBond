@@ -28,7 +28,7 @@ img {
 .header-links {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
     justify-content: end;
 }
 
@@ -109,6 +109,12 @@ img {
     section .header-links {
         justify-content: center;
         margin-bottom: 1rem;
+        flex-wrap: wrap;
+    }
+
+    section .header-links a{
+        text-align: center;
+        line-height: 1.2;
     }
 
     .subheading {
